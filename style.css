@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background: #2c5f2d;
+    height: 40%;
+    width: 100%;
+    border-bottom: 1.5px solid #A67c00;
+}
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a h3{
+    margin: 10px;
+    color: #333;
+    margin-left: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 800;
+}
+nav a h3 span{
+    color: #ffd54f;
+}
+nav ul{
+    display: flex;
+    margin: 20px;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #ffd54f;
+    transition: 0.5s;
+}
+
+nav ul li a:hover{
+color: white;
+}
+
+
+#mend{
+    background: #ffd54f;
+}
+#mend .ment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50vh;
+    width: 100vh;
+    margin-left: 50vh;
+}
+#mend .ment h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2c5f2d;
+    text-decoration: underline;
+}
+
+#mend .ment .grsa h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: wavy;
+    text-transform: lowercase;
+    color: black;
+}
+
+.block{
+    background-image: url(images/way.jpg);
+    background-position: center;
+    backface-visibility: visible;
+    background-size: cover;
+    padding: 60xp 0;
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    width: 100%;
+}
+.text{
+    background-color: rgba(0, 80, 0,0.85);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    margin: 100px 100px;
+    display: block;
+    color: #ffd54f;
+    padding: 40px 40px;
+    border-radius: 10px;
+    max-width: 70%;
+    line-height: 1.6;
+    text-align: center;
+    max-height: 35%;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: oblique;
+    text-align: justify;
+}
+/*...*/
+
+.footer{
+    background-color: #ffd54f;
+    border-top: 7px solid #2c5f2d;
+    color: #2c5f2d;
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.footer h3{
+    font-size: 22px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+
+.footer p{
+    margin: 5px 0;
+    font-size: 15px;
+    opacity: 0.9;
+}
+
+.footer-links{
+    margin: 15px 0;
+}
+
+.footer-links a{
+    margin: 0 12px;
+    color: #2c5f2d;
+    text-decoration: none;
+    font-weight: 700;
+    opacity: 0.9;
+    transition: 0.3s ease;
+}
+
+.footer-links a:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.footer .copyright{
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.7;
+}
