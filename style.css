@@ -161,3 +161,76 @@ color: white;
     font-size: 14px;
     opacity: 0.7;
 }
+
+
+.kontain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+}
+
+.togpic img{
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.tog{
+     background: #1b4f21;   
+    padding: 20px 25px;
+    width: 350px;
+    color: #fcd34d;         
+    font-size: 22px;
+    line-height: 1.4;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.key{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.key h2{
+    font-size: 28px;
+    color: #2c5f2d;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.keyi{
+    padding: 20px 25px;
+    width: 700px;
+    color: green;
+    font-size: 30px;
+    line-height: 1.5;
+    border-radius: 10px;
+    text-align: center;
+    background: #fcd34d;
+}
+
+.water{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+    margin-left: 50px;
+}
+
+.youth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    width: 900px;
+    height: auto;
+    border-radius: 15px;
+    margin-left: 50px;
+}
