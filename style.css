@@ -162,6 +162,8 @@ color: white;
     opacity: 0.7;
 }
 
+/*styles for learnmore.html*/
+
 
 .kontain{
     display: flex;
@@ -178,59 +180,105 @@ color: white;
 }
 
 .tog{
-     background: #1b4f21;   
+     background: whitesmoke;   
     padding: 20px 25px;
     width: 350px;
-    color: #fcd34d;         
+    color: black;         
     font-size: 22px;
     line-height: 1.4;
     border-radius: 10px;
     text-align: center;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
 }
 
-.key{
+
+
+
+
+
+
+.wat{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 50px;
+    gap: 30px;
+    padding: 40px;
 }
-
-.key h2{
-    font-size: 28px;
-    color: #2c5f2d;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.keyi{
-    padding: 20px 25px;
-    width: 700px;
-    color: green;
-    font-size: 30px;
-    line-height: 1.5;
-    border-radius: 10px;
-    text-align: center;
-    background: #fcd34d;
-}
-
-.water{
+.moya{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 50px;
-    width: 400px;
-    height: auto;
-    border-radius: 15px;
-    margin-left: 50px;
+    background: whitesmoke;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+    gap: 40px;
+    font-size: 20px;
+    text-align: block;
+    border-radius: 20px;
+    box-shadow: #333;
+}
+.moya img{
+    border-radius: 20px;
+}
+.moya h1{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.moya p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    font-weight: 200;
 }
 
 .youth{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 50px;
-    width: 900px;
-    height: auto;
-    border-radius: 15px;
-    margin-left: 50px;
+    padding: 40px;
+    border-radius: 20px;
+    background: whitesmoke;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+    /*margin-left: 50px;*/
+    gap: 40px;
+}
+
+.youth img{
+    border-radius: 20px;
+}
+.youth h1{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.youth p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    font-weight: 200;
+}
+
+.waste{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    border-radius: 20px;
+    background: whitesmoke;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+    /*margin-left: 50px;*/
+    gap: 40px;
+}
+
+.waste img{
+    border-radius: 20px;
+}
+
+.waste h1{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.waste p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    font-weight: 200;
 }
