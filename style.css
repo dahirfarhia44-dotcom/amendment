@@ -114,9 +114,9 @@ color: white;
     text-align: justify;
 }
 /*...*/
-
-.footer{
-    background-color: #ffd54f;
+/*home page footer stle*/
+.footerhome{
+    background: #ffd54f;
     border-top: 7px solid #2c5f2d;
     color: #2c5f2d;
     padding: 40px 20px;
@@ -264,7 +264,7 @@ color: white;
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
     /*margin-left: 50px;*/
     gap: 40px;
-        transition: box-shadow 0.4s ease;
+    transition: box-shadow 0.4s ease;
 
 }
 
@@ -388,6 +388,41 @@ color: white;
     padding-bottom: 20px;
     font-weight: 200;
     display: block;
+}
+
+.mathenge{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    border-radius: 20px;
+    background: whitesmoke;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+    /*margin-left: 50px;*/
+    gap: 40px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mathenge:hover {
+    background: #ffd54f;
+    transform: rotate(-1deg) scale(1.01);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.mathenge img{
+    border-radius: 20px;
+}
+
+.mathenge h1{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.mathenge p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    font-weight: 200;
 }
 
 /* style for about.html*/
@@ -633,5 +668,155 @@ button:hover {
 @keyframes floatIn {
     from {opacity: 0; transform: translateY(60px);}
     to {opacity: 1; transform: translateY(0);}
+}
+
+/*footer for the about page*/
+.footerabout {
+    background: #f7f7f7;
+    padding: 40px 0;
+    margin-top: 60px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+
+}
+
+.foot {
+    color: #2c5f2d;
+    text-align: center;
+}
+
+.footer h3 {
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.footer p {
+    margin: 5px 0;
+    font-size: 15px;
+    opacity: 0.9;
+}
+
+.footer-links {
+    margin: 15px 0;
+}
+
+.footer-links a {
+    margin: 0 12px;
+    color: #2c5f2d;
+    text-decoration: none;
+    font-weight: 700;
+    opacity: 0.9;
+    transition: 0.3s ease;
+}
+
+.footer-links a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.footer .copyright {
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+/*footer for the learn more page*/
+.footerlearn {
+    background: #f7f7f7;
+    padding: 40px 0;
+    margin-top: 60px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+
+}
+
+.foot {
+    color: #2c5f2d;
+    text-align: center;
+}
+
+.footer h3 {
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.footer p {
+    margin: 5px 0;
+    font-size: 15px;
+    opacity: 0.9;
+}
+
+.footer-links {
+    margin: 15px 0;
+}
+
+.footer-links a {
+    margin: 0 12px;
+    color: #2c5f2d;
+    text-decoration: none;
+    font-weight: 700;
+    opacity: 0.9;
+    transition: 0.3s ease;
+}
+
+.footer-links a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.footer .copyright {
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+/*footer for the contact page*/
+.footercon {
+    background: #f7f7f7;
+    padding: 40px 0;
+    margin-top: 60px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+
+}
+
+.foot {
+    color: #2c5f2d;
+    text-align: center;
+}
+
+.footer h3 {
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.footer p {
+    margin: 5px 0;
+    font-size: 15px;
+    opacity: 0.9;
+}
+
+.footer-links {
+    margin: 15px 0;
+}
+
+.footer-links a {
+    margin: 0 12px;
+    color: #2c5f2d;
+    text-decoration: none;
+    font-weight: 700;
+    opacity: 0.9;
+    transition: 0.3s ease;
+}
+
+.footer-links a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.footer .copyright {
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.7;
 }
 
